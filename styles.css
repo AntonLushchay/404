@@ -1,0 +1,62 @@
+h1,
+p {
+    margin: 0;
+}
+
+html {
+    block-size: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    color: #2f80ed;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    block-size: 100%;
+}
+
+main {
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.hover-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+
+.Caption {
+    width: 420px;
+    font-size: 120px;
+    font-style: normal;
+    text-align: center;
+}
+
+.description {
+    display: none;
+    width: 420px;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    text-align: center;
+}
+
+.hover-element:hover .description {
+    display: block;
+}
+
+footer {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+a {
+    color: currentColor;
+}
